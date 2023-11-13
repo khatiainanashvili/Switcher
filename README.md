@@ -2,7 +2,7 @@
 https://khatiainanashvili.github.io/Switcher/
 # Meme Designer vs Developer
 
-This is a Git repository for a web application that showcases a meme titled "Meme Designer vs Developer." The application is built using HTML, CSS, and JavaScript and features a dynamic day/night theme with animated elements. Below is a README file that provides an overview of the project and how to use it.
+This is a Git repository for a web application that showcases a meme titled "Designer vs Developer". The application is built using HTML, CSS, and JavaScript and features a dynamic day/night theme with animated elements. Below is a README file that provides an overview of the project and how to use it.
 
 ## Table of Contents
 
@@ -15,7 +15,7 @@ This is a Git repository for a web application that showcases a meme titled "Mem
 
 ## Description
 
-The "Meme Designer vs Developer" web application is a humorous representation of the differences between designers and developers. It features a visual representation of a day and night scene that can be toggled with the click of a button. The day theme showcases a bright sun, while the night theme displays a moon and stars in a dark sky.
+The application is a lighthearted depiction inspired by the  'Developer vs Designer' meme. It features a playful representation of a day and night scene that can be toggled with the click of a button. The day theme showcases a bright sun, while the night theme displays a moon and stars in a dark sky
 
 The application utilizes HTML, CSS, and JavaScript to create a visually appealing and interactive experience. It also includes various CSS animations and transitions to make the scene more engaging.
 
