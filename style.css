@@ -6,7 +6,7 @@
 :root[data-theme= "light"]{
     --background-color: rgb(133, 171, 185);
     --moon-position: -100%;
-    --circles-container-position: 50%;
+    --circles-container-position: 25%;
     --circles-container-hover:43%;
     --clouds-position:0;
     --sun-margin:  3%;
@@ -19,10 +19,10 @@
 :root[data-theme = "dark"] {
     --background-color: rgb(15, 11, 30);
     --moon-position: 0;
-    --circles-container-position: -18%;
+    --circles-container-position: -25%;
     --circles-container-hover:-10%;
     --clouds-position: 100%;
-    --sun-margin: 62%;
+    --sun-margin: 55%;
     --btn-container-background:  #202230;
     --background-clouds-position:100% ;
     --background-clouds-trasition: top 1.1s ease-in-out;
@@ -40,9 +40,9 @@ body {
     transition: background-color 1s ease-in-out;
 }
 .container {
-    width: 80%;
-    height: 18%;
-    border-radius: 70px;
+    width: 20em;
+    height: 10em;
+    border-radius: 7em;
     border-bottom: .2em solid rgba(255, 254, 254, 0.353);
     border-top:  .1em solid var(--border-color);
     box-shadow: inset 0 10px 10px #0000007e;
@@ -73,6 +73,8 @@ body {
     position: relative;
     z-index: -10;
     transition: right 0.5s ease-in-out;
+    width: 20em;
+    height: 20em;
 
 }
 
@@ -86,8 +88,8 @@ body {
  }
  .sun,
  .moon{
-    width: 28vw;
-    height: 28vw;
+    width: 8em;
+    height: 8em;
      border-radius: 50%;
      box-shadow: inset 0 4px 10px #fff;
      filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.229));
@@ -112,7 +114,6 @@ body {
   justify-content: center;
   border-radius: 50%; 
   background-color: rgba(255, 255, 255, 0.103);
-  
 }
 
 
@@ -170,17 +171,17 @@ body {
     transition: var(--background-clouds-trasition);
 }
 .circle3{
-    width: 60vw;
-    height: 60vw;
+    width: 12em;
+    height: 12em;
 }
 .circle2{
-    width: 82vw;
-    height: 82vw;
+    width: 16em;
+    height: 16em;
    
 }
 .circle1{
-    width: 100vw;
-    height: 100vw;
+    width: 20em;
+    height: 20em;
 }
 
 .clouds > span {
@@ -189,46 +190,46 @@ body {
     position: absolute;
 }
 .cloud6{
-    width: 20vw;
-    height: 20vw;
+    width: 8em;
+    height: 8em;
     margin-top: 26%;
     left: -5%;
 }
 .cloud5{
-    width: 18vw;
-    height: 18vw;
+    width: 4em;
+    height: 4em;
     margin-top: 27%;
     left: 7%;
 } 
 .cloud4{
-    width: 20vw;
-    height: 20vw;
+    width: 5em;
+    height: 5em;
     margin-top: 28%;
-    left: 26%;
+    left: 20%;
 }
 .cloud3{
-    width: 18vw;
-    height: 18vw;
+    width: 5em;
+    height: 5em;
     margin-top: 28%;
-    left: 38%;
+    left: 30%;
 }
 .cloud2{
-    width: 20vw;
-    height: 20vw;
-    left: 50%;
-    margin-top: 25%;
+    width: 6em;
+    height: 6em;
+    left: 47%;
+    margin-top: 30%;
 
 }
 .cloud1{
-    width:  16vw;
-    height: 16vw;
-    left: 63%;
+    width: 4em;
+    height: 4em;
+    left: 65%;
     margin-top: 25%;
 }
 .cloud0{
-    width: 25vw;
-    height: 25vw;
-    right: 0%;
+    width: 7em;
+    height: 7em;
+    right: -5%;
     margin-top: 8%;
 }
 
@@ -322,295 +323,3 @@ body {
     transition: bottom 1s ease-in-out;
 }
 
-@media screen and (min-width: 375px) {
-    :root[data-theme= "light"]{ 
-        --circles-container-position: 65%;
-        --sun-margin: 5%;  
-    }
-
-    :root[data-theme= "dark"]{ 
-       
-        --sun-margin: 55%;  
-    }
-    .container {
-        width: 70%;
-        height: 20%;
-        border-radius: 70px;
-    }
-    .sun,
-    .moon{
-    width: 25vw;
-    height: 25vw;
-    border-radius: 50%;
-}
-}
-@media screen and (min-width: 414px) {
-    
-    :root[data-theme= "light"]{
-       
-        --circles-container-position: 65%;
-        --sun-margin: 3%;
-        
-    }
-    :root[data-theme = "dark"] {
-        --circles-container-position: -15%;
-        --sun-margin: 55%;
-    }
-    .container {
-        width: 300px;
-        height: 150px;
-        border-radius: 90px;
-    }  
-    .sun, .moon {
-        width: 27vw;
-        height: 27vw;
-    } 
-}
-
-@media screen and (min-width: 425px) {
-    
-    .container {
-        width: 311px;
-        height: 161px;
-        border-radius: 100px;
-    }  
-   
-}
-
-@media screen and (min-width: 768px) {
-    
-    :root[data-theme= "light"]{
-        --sun-margin: 2%;
-        --circles-container-position: 25%;
-        
-    }
-    :root[data-theme = "dark"] {
-        --circles-container-position: -27%;
-        --sun-margin: 58%;
-    }
-    .container {
-        width: 40%;
-        height: 25%;
-        border-radius: 150px;
-    }
-    .sun,
-    .moon{
-    width: 15vw;
-    height: 15vw;}
-    .cloud6{
-        width: 12vw;
-        height: 12vw;
-        margin-top: 26%;
-        left: -5%;
-    }
-    .cloud5{
-        width: 9vw;
-        height: 9vw;
-        margin-top: 27%;
-        left: 10%;
-    } 
-    .cloud4{
-        width: 10vw;
-        height: 10vw;
-        margin-top: 28%;
-        left: 26%;
-    }
-    .cloud3{
-        width: 9vw;
-        height: 9vw;
-        margin-top: 28%;
-        left: 38%;
-    }
-    .cloud2{
-        width: 12vw;
-        height: 12vw;
-        left: 50%;
-        margin-top: 25%;
-    
-    }
-    .cloud1{
-        width:  10vw;
-        height: 10vw;
-        left: 68%;
-        margin-top: 21%;
-    }
-    .cloud0{
-        width: 12vw;
-        height: 12vw;
-        right: 0%;
-        margin-top: 7%;
-    }
-
-}
-
-@media screen and (min-width: 1024px) {
-    
-    :root[data-theme= "light"]{
-       
-        --circles-container-position: 85%;
-        --sun-margin: 6%;
-        
-    }
-    :root[data-theme = "dark"] {
-        --circles-container-position: -20%;
-        --sun-margin: 65%;
-    }
-    .container {
-        width: 60%;
-        height: 35%;
-        border-radius: 110px;
-    }
-    .sun,
-    .moon{
-    width: 18.5vw;
-    height: 18.5vw;
-}
-.cloud6{
-    width: 15vw;
-    height: 15vw;
-    margin-top: 21%;
-    left: -5%;
-}
-.cloud5{
-    width: 11vw;
-    height: 11vw;
-    margin-top: 20%;
-    left: 10%;
-} 
-.cloud4{
-    width: 13vw;
-    height: 13vw;
-    margin-top: 25%;
-    left: 25%;
-}
-.cloud3{
-    width: 11vw;
-    height: 11vw;
-    margin-top: 28%;
-    left: 38%;
-}
-.cloud2{
-    width: 15vw;
-    height: 15vw;
-    left: 50%;
-    margin-top: 25%;
-
-}
-.cloud1{
-    width:  12vw;
-    height: 12vw;
-    left: 65%;
-    margin-top: 20%;
-}
-.cloud0{
-    width: 17vw;
-    height: 17vw;
-    right: 0%;
-    margin-top: 7%;
-}
-
-}
-
-@media screen and (min-width: 1440px) {
-
-    :root[data-theme= "light"]{
-        --circles-container-position: 45%;
-        --sun-margin:  1.5%;
-    }
-    :root[data-theme = "dark"] {
-        --circles-container-position: -12%;
-        --sun-margin: 60%;
-    }
-
-.container {
-    width: 50%;
-    height: 40%;
-    border-radius: 150px;
-    box-shadow: inset 0 10px 10px #0000007e;
-}
-.container-light
- {
-    border-radius: 150px;
-    padding: 20px;
-}
-
-
-
-.circle3{
-    width: 400px;
-    height: 400px;
-}
-.circle2{
-    width: 650px;
-    height: 650px;
-   
-}
-.circle1{
-    width: 950px;
-    height: 950px;
-}
-.container:hover .circles-container{
-    right: var(--circles-container-hover);
-    transition: right 0.5s ease-in-out;
-}
-.sun,
-.moon{
-    width: 240px;
-    height: 240px;
-    border-radius: 50%;
-}
-
-
-
-.clouds > span {
-    border-radius: 50%;
-    background-color: #fff;
-    position: absolute;
-}
-.cloud6{
-    width: 200px;
-    height: 200px;
-    margin-top: 26%;
-    left: -5%;
-}
-.cloud5{
-    width: 250px;
-    height: 250px;
-    margin-top: 27%;
-    left: 7%;
-} 
-.cloud4{
-    width: 150px;
-    height: 150px;
-    margin-top: 28%;
-    left: 26%;
-}
-.cloud3{
-    width: 120px;
-    height: 120px;
-    margin-top: 28%;
-    left: 38%;
-}
-.cloud2{
-    width: 200px;
-    height: 200px;
-    left: 45%;
-    margin-top: 25%;
-
-}
-.cloud1{
-    width: 120px;
-    height: 120px;
-    left: 62%;
-    margin-top: 24%;
-}
-.cloud0{
-    width: 250px;
-    height: 250px;
-    right: 0;
-    margin-top: 10%;
-}
-
-
-
-}
