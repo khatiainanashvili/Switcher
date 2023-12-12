@@ -44,9 +44,11 @@ To use the "Meme Designer vs Developer" web application, follow these steps:
 4. Enjoy the humorous representation of the designer vs developer meme with the dynamic elements.
 
 ## Screenshots
-![](https://github.com/khatiainanashvili/Switcher/assets/118260235/97efeb47-3821-4fa2-a6b2-2b3f3ac21406)
 
-![](https://github.com/khatiainanashvili/Switcher/assets/118260235/02a163ad-e1eb-42d6-a0e9-79371906b42b)
+
+![day](https://github.com/khatiainanashvili/Switcher/assets/118260235/b620843a-2bd2-4c31-8b78-aec53190ae7d)
+
+![night](https://github.com/khatiainanashvili/Switcher/assets/118260235/75381237-d923-43af-b0dd-ab85f2a3f39e)
 
 
 ## Contributing
